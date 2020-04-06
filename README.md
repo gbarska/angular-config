@@ -106,13 +106,21 @@ Build project and generate final content
 
 --prod  (optmizes for production)
 
+
 ### working with library instead of application
 
-Generates the angula base files without src folde with the default app project
+Generates the angula base files without src folde with the default app project:
 
 1:
 ng new angular-shop --create-application=false
 
-Creates one application and it's files inside the projects folder of the library
+Creates one application and it's files inside the projects folder of the library:
+
 2: 
 ng generate application backend
+
+Creates a library: 
+
+3: 
+ng generate library my-button
+
