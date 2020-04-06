@@ -33,6 +33,49 @@ Typescript configuration file
 
 Lint configuration
 
+## Angular.json
+
+### "newProjectRoot": "projects"
+
+sets the root directory for new projects inside the main project's structure
+
+
+### "projectType": "application" or "library"
+
+sets the root directory for new projects inside the main project's structure
+
+### "srcRoot": "src" 
+sets the root directory for source files
+
+### "prefix": "app" 
+
+sets the prefix for components created
+
+
+### "architect": {
+  "build": {
+    "styles": [],
+    "scripts": [],
+    "configurations": {
+    "production": {
+    
+      }
+      } 
+      all configurations here...
+  },
+ "serve": {
+    "styles": [],
+    "scripts": [],
+    "configurations": {
+    "production": {
+    
+      }
+      } 
+      all configurations here...
+  },
+ 
+configuration for each command of cli  (build, serve, etc) and enviroment config (configurations*)
+
 ## Commands CLI
 
 ### ng serve
