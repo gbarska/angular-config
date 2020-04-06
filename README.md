@@ -32,3 +32,34 @@ Typescript configuration file
 ### tslint.json
 
 Lint configuration
+
+## Commands CLI
+
+### ng serve
+
+Serves the project at local machine
+
+--port 
+
+setup port for the enviroment served
+
+--prod 
+
+config project as production 
+
+### ng generate
+
+guards, services, module, component, application, directive...
+
+--help (list other parameters)
+
+### ng lint
+
+verify projects files to check health and quality of code
+
+### build 
+
+Build project and generate final content 
+
+--prod  (optmizes for production)
+
